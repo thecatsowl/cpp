@@ -1,1 +1,1 @@
-# cpp
+Shares information about C++.
