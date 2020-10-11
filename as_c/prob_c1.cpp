@@ -66,3 +66,24 @@ int main(void)
 
 	return 0;
 }
+
+/********************************************************************************
+
+                              Execution Results:
+
+Enter the temperature in Celsius: 37.778
+Celsius:      37.8
+Fahrenheit:  100.0
+
+Enter the temperature in Celsius: -40
+Celsius:     -40.0
+Fahrenheit:  -40.0
+
+Enter the temperature in Celsius: 0
+Celsius:       0.0
+Fahrenheit:   32.0
+							  
+********************************************************************************/
+
+
+
