@@ -2,7 +2,7 @@
 
   Name:			Robert Aguilar
   
-  Date:			10/10/20
+  Date:			10/12/20
   
   Class:		CIS 22A, Fall 2020
 
@@ -57,6 +57,10 @@ int main(void)
 /********************************************************************************
 
                               Execution Results: 
+							  
+Please enter a name: George Washington
+
+George Washington
 
 Please enter a name: Franklin Delano Roosevelt
 
