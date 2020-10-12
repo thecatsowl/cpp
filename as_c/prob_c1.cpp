@@ -39,24 +39,24 @@
 #include <iomanip>
 using namespace std;
 
+// These three named constants format the output 
+const int PRECISION = 1;
+const int SETW_CEL = 9;
+const int SETW_FAHR = 6;
+
+// These two named constants are the components of the formula used
+const int TERM = 32;
+const double FACT = (9/5.0);
+
 int main(void)
 {
-
-	// These three named constants format the output 
-	const int PRECISION = 1;
-	const int SETW_CEL = 9;
-	const int SETW_FAHR = 6;
-	
-	// These two named constants are the components of the formula used
-	const int TERM = 32;
-	const double FAC = (9/5.0);
 
 	double celsius, fahr;
   		
 	cout << "\nEnter the temperature in Celsius: "; 
 	cin >> celsius;
 	
-	fahr = celsius * FAC + TERM;
+	fahr = celsius * FACT + TERM;
 
 	// The stream manipulators setprecision(n) and setw(n) format output
 	cout << setprecision(PRECISION) << fixed;
@@ -84,6 +84,4 @@ Celsius:       0.0
 Fahrenheit:   32.0
 							  
 ********************************************************************************/
-
-
 
